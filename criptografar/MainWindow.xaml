@@ -1,0 +1,16 @@
+﻿<Window x:Class="criptografar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:criptografar"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Digite a frase para criptografar" HorizontalAlignment="Center" Margin="0,69,0,0" VerticalAlignment="Top" Height="52" Width="628" FontFamily="Arial Black" FontSize="36"/>
+        <TextBox x:Name="TxtFrase" HorizontalAlignment="Center" Margin="0,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="488" Height="44" TextChanged="TextBox_TextChanged" FontFamily="Arial" FontSize="36"/>
+        <Button x:Name="ButIniciar" Content="Criptografar" HorizontalAlignment="Center" Margin="0,252,0,0" VerticalAlignment="Top" Width="147" Height="38" Click="ButIniciar_Click"/>
+        <Label x:Name="LblResultado" Content="" HorizontalAlignment="Center" Margin="0,326,0,0" VerticalAlignment="Center" Height="62" Width="708" FontFamily="Arial Black" FontSize="36"/>
+
+    </Grid>
+</Window>
